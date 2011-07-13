@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:text="Questions" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow1">
+        <TableLayout android:id="@+id/tableLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card" android:id="@+id/card1"></Button>
+        </TableLayout>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card" android:id="@+id/card2"></Button>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow2">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card" android:id="@+id/card3"></Button>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card" android:id="@+id/card4"></Button>
+    </TableRow>
+    <TextView android:text="Answers" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow3">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card" android:id="@+id/card5"></Button>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card" android:id="@+id/card6"></Button>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableRow4">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card" android:id="@+id/card7"></Button>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card" android:id="@+id/card8"></Button>
+    </TableRow>
+    <TextView android:text="Score:" android:id="@+id/score" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <TextView android:text="Wins:" android:id="@+id/wins" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+</LinearLayout>
